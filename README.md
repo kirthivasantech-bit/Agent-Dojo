@@ -172,7 +172,7 @@ so it works across versions, but the pinned range is the tested path.
 Clone the repository and set up a virtual environment.
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/agent-dojo.git
+git clone https://github.com/kirthivasantech-bit/agent-dojo.git
 cd agent-dojo
 
 python -m venv venv
