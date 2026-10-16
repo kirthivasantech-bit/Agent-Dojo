@@ -1,0 +1,41 @@
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# ── Model artifacts (NEVER commit these) ──
+outputs/
+adapters/
+checkpoints/
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+*.pth
+
+# ── Data ──
+*.zip
+*.tar.gz
+data/raw/
+data/processed/
+
+# ── Environment ──
+.env
+.env.local
+
+# ── IDE ──
+.vscode/
+.idea/
+*.swp
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+
+# ── Streamlit ──
+.streamlit/secrets.toml
